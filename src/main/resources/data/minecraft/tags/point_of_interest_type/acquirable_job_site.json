@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    {
-      "id": "nhcoins:banker_poi",
-      "required": false
-    }
-  ]
-}

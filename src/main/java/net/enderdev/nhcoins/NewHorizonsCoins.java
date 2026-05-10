@@ -4,7 +4,6 @@ import net.enderdev.nhcoins.blocks.ModBlocks;
 import net.enderdev.nhcoins.item.ModItems;
 import net.enderdev.nhcoins.recipe.ModRecipes;
 import net.enderdev.nhcoins.screens.menu.ModMenus;
-import net.enderdev.nhcoins.villager.ModVillagers;
 import net.enderdev.nhcoins.worldgen.ModWorldPlacedFeatures;
 import net.fabricmc.api.ModInitializer;
 
@@ -39,7 +38,6 @@ public class NewHorizonsCoins implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.initialize();
-		ModVillagers.registerVillagers();
 		ModMenus.initialize();
 		RecipeSynchronization.synchronizeRecipeSerializer(ModRecipes.COIN_SMITH_RECIPE_SERIALIZER);
 	}
