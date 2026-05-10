@@ -23,10 +23,9 @@ public class ModRecipes {
 
 	//:::registration
 
-	// TODO - recipe book support, requires enum extensions + screen changes
 	public static final RecipeBookCategory UPGRADING_RECIPE_BOOK_CATEGORY = Registry.register(
 					BuiltInRegistries.RECIPE_BOOK_CATEGORY,
-					Identifier.fromNamespaceAndPath(NewHorizonsCoins.MOD_ID, "upgrading"),
+					Identifier.fromNamespaceAndPath(NewHorizonsCoins.MOD_ID, "coin_smithing"),
 					new RecipeBookCategory()
 	);
 }
