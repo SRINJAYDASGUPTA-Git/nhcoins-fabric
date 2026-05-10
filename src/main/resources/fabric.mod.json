@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "nhcoins",
+	"version": "${version}",
+	"name": "New Horizons Coins",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/nhcoins/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.enderdev.nhcoins.NewHorizonsCoins"
+		],
+		"client": [
+			"net.enderdev.nhcoins.NewHorizonsCoinsClient"
+		],
+		"fabric-datagen": [
+			"net.enderdev.nhcoins.NewHorizonsCoinsDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
